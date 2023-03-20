@@ -1,0 +1,139 @@
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	color: burlywood;
+	background-color: brown;
+	/* For browsers that do not support gradients */
+	background-image: linear-gradient(to bottom, rgb(110, 4, 4), rgb(154, 63, 2));
+}
+
+header {
+	background-color: rgb(110, 4, 4);
+	padding: 10px;
+}
+
+.main {
+	padding: 30px;
+	margin-top: 30px;
+	height: 1500px;
+}
+.foot{
+	padding: 400px;
+	margin-top: 30px;
+}
+
+.zoom {
+	padding: 20px;
+	transition: transform .2s;
+	width: 300px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.zoom:hover {
+	-ms-transform: scale(1.5);
+	/* IE 9 */
+	-webkit-transform: scale(1.5);
+	/* Safari 3-8 */
+	transform: scale(1.5);
+}
+
+.navbar {
+	overflow: hidden;
+	font-size: x-large;
+	font-family: 'Courier New', Courier, monospace
+	.;
+	background-color: rgb(110, 4, 4);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background: #ddd;
+	color: black;
+}
+
+
+.logo {
+	width: 50px;
+	height: 40px;
+}
+
+
+
+.bars,
+.kinder,
+.valentine,
+.original {
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+
+}
+
+
+
+.valentine:hover {
+	-ms-transform: scale(1.5);
+	/* IE 9 */
+	-webkit-transform: scale(1.5);
+	/* Safari 3-8 */
+	transform: scale(1.5);
+}
+
+.bars:hover {
+	-ms-transform: scale(1.5);
+	/* IE 9 */
+	-webkit-transform: scale(1.5);
+	/* Safari 3-8 */
+	transform: scale(1.5);
+}
+
+.original:hover {
+	-ms-transform: scale(1.5);
+	/* IE 9 */
+	-webkit-transform: scale(1.5);
+	/* Safari 3-8 */
+	transform: scale(1.5);
+}
+
+.kinder:hover {
+	-ms-transform: scale(1.5);
+	/* IE 9 */
+	-webkit-transform: scale(1.5);
+	/* Safari 3-8 */
+	transform: scale(1.5);
+}
+
+a:link,
+a:visited {
+	background-color: gold;
+	background-image: linear-gradient(to bottom right, rgb(110, 4, 4), gold);
+	color: burlywood;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover,
+a:active {
+	background-color: black;
+}
+input,textarea,button{
+	background-color:goldenrod;
+}
